@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+frontend_ready/node_modules/
+backend/node_modules/
+
+# Build outputs
+dist/
+build/
+frontend_ready/dist/
+backend/dist/
+
+# Environment files
+.env
+.env.local
+frontend_ready/.env
+backend/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# Optional: ignore IDE/editor settings
+.vscode/
+.idea/
